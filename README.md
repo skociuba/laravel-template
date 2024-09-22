@@ -64,3 +64,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## c:\xampp\htdocs 
+   - tu twórz projekty
+## laravel new nazwa_projektu 
+   - tworzysz nowy projekt
+## php artisan serve 
+   - odpalasz serwer php
+## php artisan make:controller PostController
+  - w kontrolerze tworzymy funkcję którą przekazujemy do routingu 
+## php artisan make:migration create_posts_table 
+ - tworzy tabelę
+## php artisan make:model Post 
+  - tworzy pliki :
+     Post.php
+     234674574567566776_create_post_table.php
+
+## php artisan migrate - jeżeli baza nie jest utworzona to pyta się czy utworzyć
+
+i teraz tworzę sobie fake dane: (wszystko w folderze database) 
+## php artisan make:seeder PostsTableSeeder 
+ - tworzony jest plik PostsTableSeeder w sederach
+ - robisz update w pliku DatabaseSeeder
+## php artisan make:factory PostFactory --model=Post 
+  - tworzony jest factory tylko trzeba zainstalować composer require fakerphp/faker
+## php artisan db:seed
